@@ -24,5 +24,9 @@ pipeline {
                         echo "Deploying in Production Area"
                   }
             }
-      }
+            stage('Hai ca e gata daca e') {
+                  steps {
+                        echo "Ai terminat patroane, sanatate!"
+                  }
+            }
 }
