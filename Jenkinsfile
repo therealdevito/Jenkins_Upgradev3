@@ -29,4 +29,5 @@ pipeline {
                         echo "Ai terminat patroane, sanatate!"
                   }
             }
+      }
 }
