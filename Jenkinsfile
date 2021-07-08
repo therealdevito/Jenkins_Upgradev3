@@ -3,20 +3,18 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Devito from Mars'
+                        echo 'Hi, this is devito from outer space'
                         echo 'We are starting the testing'
                   }
             }
             stage('Build') {
                   steps {
                         echo 'Building Sample Maven Project'
-                        echo 'Hai in Mercedes'
                   }
             }
             stage('Deploy') {
                   steps {
                         echo "Deploying in Staging Area"
-                        echo "hai in avion"
                   }
             }
             stage('Deploy Production') {
@@ -24,9 +22,9 @@ pipeline {
                         echo "Deploying in Production Area"
                   }
             }
-            stage('Hai ca e gata daca e') {
+            stage('Extra stage') {
                   steps {
-                        echo "Ai terminat patroane, sanatate!"
+                        echo "Extra Stage - Test"
                   }
             }
       }
